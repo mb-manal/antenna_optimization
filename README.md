@@ -39,3 +39,36 @@ FWHM_x and FWHM_y
 Beam eccentricity
 Antenna layout before and after optimization
 
+# Notebooks overview 
+
+All the core experiments and results are available as Jupyter notebooks in the notebooks/ folder:
+
+Genetic Algorithm – Main Method
+
+notebooks/Genetic_algo.ipynb
+
+→ Main method used for antenna optimization. Applies selection, mutation, and elitism with distance constraints.
+
+Particle Swarm Optimization (PSO)
+
+notebooks/Particle_Swarm_Optimization.ipynb
+
+→ Alternative global optimization method used for comparison with GA.
+
+Random Forest (Machine Learning)
+
+notebooks/Random_Forest.ipynb
+
+→ Regression model trained to predict beam metrics from antenna positions. Used as a fast approximation or surrogate model.
+
+# How to use 
+
+1. Clone the repository:
+
+git clone https://github.com/your-username antenna_optimization.git
+
+cd antenna_optimization
+
+2. Run the notebooks via Jupyter or VSCode:
+
+jupyter notebook notebooks/Genetic_algo.ipynb
