@@ -23,8 +23,11 @@ weight_scenarios = [
 # Dependecies 
 
 numpy
+
 matplotlib
+
 scipy
+
 argosim 
 
 also make sure argosim is accessible via : sys.path.append("/path/to/argosim/src")
