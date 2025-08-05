@@ -63,7 +63,7 @@ Random Forest : Machine Learning (notebooks/Random_Forest.ipynb)
 
 1. Clone the repository:
 
-git clone https://github.com/your-username antenna_optimization.git
+git clone https://github.com/mb-manal/antenna_optimization.git
 
 cd antenna_optimization
 
