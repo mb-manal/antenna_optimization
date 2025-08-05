@@ -47,21 +47,15 @@ Antenna layout before and after optimization
 
 All the core experiments and results are available as Jupyter notebooks in the notebooks/ folder:
 
-Genetic Algorithm – Main Method
-
-notebooks/Genetic_algo.ipynb
+Genetic Algorithm : Main Method (notebooks/Genetic_algo.ipynb)
 
 → Main method used for antenna optimization. Applies selection, mutation, and elitism with distance constraints.
 
-Particle Swarm Optimization (PSO)
-
-notebooks/Particle_Swarm_Optimization.ipynb
+Particle Swarm Optimization (notebooks/Particle_Swarm_Optimization.ipynb)
 
 → Alternative global optimization method used for comparison with GA.
 
-Random Forest (Machine Learning)
-
-notebooks/Random_Forest.ipynb
+Random Forest : Machine Learning (notebooks/Random_Forest.ipynb)
 
 → Regression model trained to predict beam metrics from antenna positions. Used as a fast approximation or surrogate model.
 
