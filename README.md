@@ -22,21 +22,30 @@ weight_scenarios = [
 
 # Dependecies 
 
-numpy
-matplotlib
-scipy
-argosim 
+- numpy
 
-also make sure argosim is accessible via : sys.path.append("/path/to/argosim/src")
+- matplotlib
+
+- scipy
+
+- argosim, accessible via : 
+
+conda env 
+
+conda activate argosim
 
 # Plots and outputs 
 
 For each weight scenario, the script generates:
 
 Score evolution
+
 Side Lobe Level (SLL) per generation
+
 FWHM_x and FWHM_y
+
 Beam eccentricity
+
 Antenna layout before and after optimization
 
 # Notebooks overview 
