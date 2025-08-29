@@ -1,0 +1,33 @@
+{
+  "algo": "PSO",
+  "SLL_dB": -7.537356972422694,
+  "FWHM_x": 3.8138503569823694,
+  "FWHM_y": 3.8138503569823694,
+  "FWHM_sum": 7.627700713964739,
+  "Eccentricity": 0.0,
+  "Score": -36.924014790716996,
+  "hyperparams": {
+    "num_antennas": 30,
+    "num_particles": 6,
+    "num_iterations": 50,
+    "w": 0.9,
+    "c1": 2,
+    "c2": 2,
+    "bounds": [
+      0.1,
+      3999.9
+    ],
+    "grid_size": [
+      128,
+      128
+    ],
+    "im_size": [
+      128,
+      128
+    ],
+    "fov_size": [
+      0.03,
+      0.03
+    ]
+  }
+}
